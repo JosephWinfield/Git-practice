@@ -1,0 +1,50 @@
+body {
+  background-color: lightblue;
+  color: #000;
+  text-align: center;
+  font-family: "proxima-nova";
+  font-size: 1.5em;
+}
+
+h1 {
+  font-family: "museo-slab";
+  font-weight: 900;
+  font-style: italic;
+}
+
+.article_name, h3 {
+  font-family: "museo-slab";
+  font-weight: 500;
+}
+
+ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+li {
+  padding: 5px;
+  list-style: none;
+}
+
+form {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 750px;
+}
+input, textarea {
+  border-radius: 5px;
+  margin: 10px auto;
+  width: 500px;
+  text-align: center;
+  display: block;
+}
+
+textarea {
+  height: 250px;
+}
+
+.button {
+  width: 250px;
+}

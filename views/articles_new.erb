@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic ARTICLE Page</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://use.typekit.net/rvj8pvs.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+
+  <body>
+    <h1>New Article Post Page</h1>
+
+    <form action="/articles" method="post">
+      <label for="article_name" class="article_name">
+        <h3>Use this form to post a new article</h3>
+      </label>
+      <input placeholder="Title" type="text" id="article_name" name="article_name" required>
+      <input placeholder="URL" type="url" id="article_url" name="article_url" required>
+      <textarea placeholder="Description" type="text" id="article_description" name="article_description" minlength="20" required></textarea>
+      <input type="submit" class="button">
+    </form>
+
+  </body>
+</html>

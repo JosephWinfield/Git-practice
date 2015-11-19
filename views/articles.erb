@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic ARTICLE Page</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://use.typekit.net/rvj8pvs.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+
+  <body>
+    <h1>Slacker Articles</h1>
+    <h3>A list of submitted Articles</h3>
+    <ol>
+      <% @articles.each do |article| %>
+        <li>
+          <%= article[0] %>
+          <a href="<%= article[1] %>">
+            <%= article[1] %>
+          </a>
+          <%= article[2] %>
+        </li>
+      <% end %>
+    </ol>
+  </body>
+</html>
